@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RecyclerViewCustom">
+
+        //collaps
+        <attr name="titleColor" format="color" />
+        <attr name="subtitleColor" format="color" />
+        <attr name="iconColor" format="color" />
+        <attr name="imageIconColor" format="color" />
+        <attr name="lineOfTitleListColor" format="color" />
+        <attr name="backgroundOfTitleListColor" format="color" />
+        <attr name="VisibilityLineOfTitleList">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+        //expand
+        <attr name="lineOfSubListColor" format="color" />
+        <attr name="textOfSubListColor" format="color" />
+        <attr name="backgroundOfSubListColor" format="color" />
+        <attr name="VisibilityLineOfSubList">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>
