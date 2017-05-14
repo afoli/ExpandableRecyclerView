@@ -6,4 +6,5 @@
     android:orientation="vertical"
     tools:context="ir.thebigbang.expandablerecyclerview.MainActivity">
 
+
 </LinearLayout>

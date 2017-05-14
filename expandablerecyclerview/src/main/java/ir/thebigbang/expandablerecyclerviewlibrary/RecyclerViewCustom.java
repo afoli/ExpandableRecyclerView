@@ -69,42 +69,7 @@ public class RecyclerViewCustom extends LinearLayout {
         this.attrs = attrs;
 
         TypedArray a = mContext.obtainStyledAttributes(attrs, R.styleable.RecyclerViewCustom);
-        titleColor = a.getColor(R.styleable.RecyclerViewCustom_titleColor, 0);
-        subtitleColor = a.getColor(R.styleable.RecyclerViewCustom_subtitleColor, 0);
-        iconColor = a.getColor(R.styleable.RecyclerViewCustom_iconColor, 0);
-        lineOfTitleListColor = a.getColor(R.styleable.RecyclerViewCustom_lineOfTitleListColor, 0);
-        lineOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_lineOfSubListColor, 0);
-        textOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_textOfSubListColor, 0);
-        backgroundOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_backgroundOfSubListColor, 0);
-        backgroundOfTitleListColor = a.getColor(R.styleable.RecyclerViewCustom_backgroundOfTitleListColor, 0);
-        visibilityLineOfTitleList = a.getInteger(R.styleable.RecyclerViewCustom_VisibilityLineOfTitleList, 0);
-        visibilityLineOfSubList = a.getInteger(R.styleable.RecyclerViewCustom_VisibilityLineOfSubList, 0);
-        imageIconColor = a.getColor(R.styleable.RecyclerViewCustom_imageIconColor, 0);
-        a.recycle();
-
-        attrList = new ArrayList<>();
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.TITLE_COLOR, titleColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.SUB_TITEL_COLOR, subtitleColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.ICON_COLOR, iconColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.LINE_OF_TITLE_LIST_COLOR, lineOfTitleListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.LINE_OF_SUB_LIST_COLOR, lineOfSubListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.TEXT_OF_SUB_LIST_COLOR, textOfSubListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.BACKGROUND_OF_SUBLIST_COLOR, backgroundOfSubListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.BACKGROUND_OF_TITLE_LIST_COLOR, backgroundOfTitleListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.VISIBILITY_LINE_OF_TITLE_LIST, visibilityLineOfTitleList));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.VISIBILITY_LINE_OF_SUB_LIST, visibilityLineOfSubList));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.IMAGE_ICON_COLOR, imageIconColor));
+        setAttrsInView(a);
 
         initialize(mContext);
     }
@@ -115,42 +80,7 @@ public class RecyclerViewCustom extends LinearLayout {
         this.attrs = attrs;
 
         TypedArray a = mContext.obtainStyledAttributes(attrs, R.styleable.RecyclerViewCustom);
-        titleColor = a.getColor(R.styleable.RecyclerViewCustom_titleColor, 0);
-        subtitleColor = a.getColor(R.styleable.RecyclerViewCustom_subtitleColor, 0);
-        iconColor = a.getColor(R.styleable.RecyclerViewCustom_iconColor, 0);
-        lineOfTitleListColor = a.getColor(R.styleable.RecyclerViewCustom_lineOfTitleListColor, 0);
-        lineOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_lineOfSubListColor, 0);
-        textOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_textOfSubListColor, 0);
-        backgroundOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_backgroundOfSubListColor, 0);
-        backgroundOfTitleListColor = a.getColor(R.styleable.RecyclerViewCustom_backgroundOfTitleListColor, 0);
-        visibilityLineOfTitleList = a.getInteger(R.styleable.RecyclerViewCustom_VisibilityLineOfTitleList, 0);
-        visibilityLineOfSubList = a.getInteger(R.styleable.RecyclerViewCustom_VisibilityLineOfSubList, 0);
-        imageIconColor = a.getColor(R.styleable.RecyclerViewCustom_imageIconColor, 0);
-        a.recycle();
-
-        attrList = new ArrayList<>();
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.TITLE_COLOR, titleColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.SUB_TITEL_COLOR, subtitleColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.ICON_COLOR, iconColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.LINE_OF_TITLE_LIST_COLOR, lineOfTitleListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.LINE_OF_SUB_LIST_COLOR, lineOfSubListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.TEXT_OF_SUB_LIST_COLOR, textOfSubListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.BACKGROUND_OF_SUBLIST_COLOR, backgroundOfSubListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.BACKGROUND_OF_TITLE_LIST_COLOR, backgroundOfTitleListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.VISIBILITY_LINE_OF_TITLE_LIST, visibilityLineOfTitleList));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.VISIBILITY_LINE_OF_SUB_LIST, visibilityLineOfSubList));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.IMAGE_ICON_COLOR, imageIconColor));
+        setAttrsInView(a);
 
         initialize(mContext);
     }
@@ -161,42 +91,7 @@ public class RecyclerViewCustom extends LinearLayout {
         this.attrs = attrs;
 
         TypedArray a = mContext.obtainStyledAttributes(attrs, R.styleable.RecyclerViewCustom);
-        titleColor = a.getColor(R.styleable.RecyclerViewCustom_titleColor, 0);
-        subtitleColor = a.getColor(R.styleable.RecyclerViewCustom_subtitleColor, 0);
-        iconColor = a.getColor(R.styleable.RecyclerViewCustom_iconColor, 0);
-        lineOfTitleListColor = a.getColor(R.styleable.RecyclerViewCustom_lineOfTitleListColor, 0);
-        lineOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_lineOfSubListColor, 0);
-        textOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_textOfSubListColor, 0);
-        backgroundOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_backgroundOfSubListColor, 0);
-        backgroundOfTitleListColor = a.getColor(R.styleable.RecyclerViewCustom_backgroundOfTitleListColor, 0);
-        visibilityLineOfTitleList = a.getInteger(R.styleable.RecyclerViewCustom_VisibilityLineOfTitleList, 0);
-        visibilityLineOfSubList = a.getInteger(R.styleable.RecyclerViewCustom_VisibilityLineOfSubList, 0);
-        imageIconColor = a.getColor(R.styleable.RecyclerViewCustom_imageIconColor, 0);
-        a.recycle();
-
-        attrList = new ArrayList<>();
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.TITLE_COLOR, titleColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.SUB_TITEL_COLOR, subtitleColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.ICON_COLOR, iconColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.LINE_OF_TITLE_LIST_COLOR, lineOfTitleListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.LINE_OF_SUB_LIST_COLOR, lineOfSubListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.TEXT_OF_SUB_LIST_COLOR, textOfSubListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.BACKGROUND_OF_SUBLIST_COLOR, backgroundOfSubListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.BACKGROUND_OF_TITLE_LIST_COLOR, backgroundOfTitleListColor));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.VISIBILITY_LINE_OF_TITLE_LIST, visibilityLineOfTitleList));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.VISIBILITY_LINE_OF_SUB_LIST, visibilityLineOfSubList));
-        attrList.add(new AttrItem
-                (ConstDefault.Attrs.IMAGE_ICON_COLOR, imageIconColor));
+        setAttrsInView(a);
 
         initialize(mContext);
     }
@@ -925,6 +820,46 @@ public class RecyclerViewCustom extends LinearLayout {
                 }
                 break;
         }
+    }
+
+    private void setAttrsInView(TypedArray a) {
+
+        titleColor = a.getColor(R.styleable.RecyclerViewCustom_titleColor, 0);
+        subtitleColor = a.getColor(R.styleable.RecyclerViewCustom_subtitleColor, 0);
+        iconColor = a.getColor(R.styleable.RecyclerViewCustom_iconColor, 0);
+        lineOfTitleListColor = a.getColor(R.styleable.RecyclerViewCustom_lineOfTitleListColor, 0);
+        lineOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_lineOfSubListColor, 0);
+        textOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_textOfSubListColor, 0);
+        backgroundOfSubListColor = a.getColor(R.styleable.RecyclerViewCustom_backgroundOfSubListColor, 0);
+        backgroundOfTitleListColor = a.getColor(R.styleable.RecyclerViewCustom_backgroundOfTitleListColor, 0);
+        visibilityLineOfTitleList = a.getInteger(R.styleable.RecyclerViewCustom_VisibilityLineOfTitleList, 0);
+        visibilityLineOfSubList = a.getInteger(R.styleable.RecyclerViewCustom_VisibilityLineOfSubList, 0);
+        imageIconColor = a.getColor(R.styleable.RecyclerViewCustom_imageIconColor, 0);
+        a.recycle();
+
+        attrList = new ArrayList<>();
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.TITLE_COLOR, titleColor));
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.SUB_TITEL_COLOR, subtitleColor));
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.ICON_COLOR, iconColor));
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.LINE_OF_TITLE_LIST_COLOR, lineOfTitleListColor));
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.LINE_OF_SUB_LIST_COLOR, lineOfSubListColor));
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.TEXT_OF_SUB_LIST_COLOR, textOfSubListColor));
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.BACKGROUND_OF_SUBLIST_COLOR, backgroundOfSubListColor));
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.BACKGROUND_OF_TITLE_LIST_COLOR, backgroundOfTitleListColor));
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.VISIBILITY_LINE_OF_TITLE_LIST, visibilityLineOfTitleList));
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.VISIBILITY_LINE_OF_SUB_LIST, visibilityLineOfSubList));
+        attrList.add(new AttrItem
+                (ConstDefault.Attrs.IMAGE_ICON_COLOR, imageIconColor));
     }
 
 }
