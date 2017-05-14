@@ -375,28 +375,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         public childHolder(View itemView) {
             super(itemView);
 
-//            if (subTitleListSize == 0) {
-//
-//                Log.d(TAG, "childHolder: 1");
-//
-//                switch (TypeOfSubLayout) {
-//                    case ConstDefault.SubLayout.SUB_SINGLE_IMAGE:
-//
-//                        layoutSingle = (LinearLayout) itemView.findViewById(R.id.layout_sub_list);
-//                        imageSingle = (ImageView) itemView.findViewById(R.id.sub_image);
-//                        bottomLineSingle = itemView.findViewById(R.id.line_close_item);
-//                        Log.d(TAG, "childHolder: 2.1");
-//                        break;
-//                    case ConstDefault.SubLayout.SUB_SINGLE_TEXT:
-//
-//                        layoutSingle = (LinearLayout) itemView.findViewById(R.id.layout_sub_list);
-//                        textSingle = (TextView) itemView.findViewById(R.id.sub_text);
-//                        bottomLineSingle = itemView.findViewById(R.id.line_close_item);
-//                        Log.d(TAG, "childHolder: 2.2");
-//                        break;
-//                }
-//            }
-
             switch (TypeOfTitleLayout) {
 
                 case ConstDefault.Title.TITLE:
@@ -409,8 +387,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                     iconImage = (ImageView) itemView.findViewById(R.id.icon_image);
 
                     recyclerView = (RecyclerView) itemView.findViewById(R.id.expand_title_subtitle_list);
-
-                    iconText.setScaleY(-1);
 
                     break;
 
@@ -426,8 +402,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
                     recyclerView = (RecyclerView) itemView.findViewById(R.id.expand_title_subtitle_list);
 
-                    iconText.setScaleY(-1);
-
                     break;
 
                 case ConstDefault.Title.TITLE_RECTANGLE_IMAGE:
@@ -441,8 +415,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                     iconImage = (ImageView) itemView.findViewById(R.id.icon_image);
 
                     recyclerView = (RecyclerView) itemView.findViewById(R.id.expand_title_subtitle_list);
-
-                    iconText.setScaleY(-1);
 
                     break;
 
@@ -458,8 +430,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
                     recyclerView = (RecyclerView) itemView.findViewById(R.id.expand_title_subtitle_list);
 
-                    iconText.setScaleY(-1);
-
                     break;
 
                 case ConstDefault.Title.TITLE_SUBTITLE:
@@ -473,8 +443,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                     iconImage = (ImageView) itemView.findViewById(R.id.icon_image);
 
                     recyclerView = (RecyclerView) itemView.findViewById(R.id.expand_title_subtitle_list);
-
-                    iconText.setScaleY(-1);
 
                     break;
 
@@ -491,8 +459,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
                     recyclerView = (RecyclerView) itemView.findViewById(R.id.expand_title_subtitle_list);
 
-                    iconText.setScaleY(-1);
-
                     break;
 
                 case ConstDefault.Title.TITLE_SUBTITLE_RECTANGLE_IMAGE:
@@ -507,8 +473,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                     iconImage = (ImageView) itemView.findViewById(R.id.icon_image);
 
                     recyclerView = (RecyclerView) itemView.findViewById(R.id.expand_title_subtitle_list);
-
-                    iconText.setScaleY(-1);
 
                     break;
 
@@ -525,8 +489,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
                     recyclerView = (RecyclerView) itemView.findViewById(R.id.expand_title_subtitle_list);
 
-                    iconText.setScaleY(-1);
-
                     break;
 
                 case ConstDefault.Title.TITLE_ICON:
@@ -540,8 +502,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                     iconImage = (ImageView) itemView.findViewById(R.id.icon_image);
 
                     recyclerView = (RecyclerView) itemView.findViewById(R.id.expand_title_subtitle_list);
-
-                    iconText.setScaleY(-1);
 
                     break;
 
@@ -557,8 +517,6 @@ public class ParentListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                     iconImage = (ImageView) itemView.findViewById(R.id.icon_image);
 
                     recyclerView = (RecyclerView) itemView.findViewById(R.id.expand_title_subtitle_list);
-
-                    iconText.setScaleY(-1);
 
                     break;
             }
